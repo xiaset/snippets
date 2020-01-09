@@ -1,0 +1,2 @@
+# Change index setttings
+curl -XPUT elasticsearch:9200/twitter/_settings -d '{"index" : {"number_of_replicas" : 2}}'
